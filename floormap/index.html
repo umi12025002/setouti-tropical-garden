@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>タイトル</title>
+<!-- adobeフォントのjava -->
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'mxd5dgf',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+<!-- slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+<!--ready関数-->
+<script>
+$(function(){
+
+});
+</script>
+
+</head>
+
+<body>
+        <header>
+<!-- ヘッダー中身 -->
+        <div class="fixed-header">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/setouchi_logo.png" alt="せとうち熱帯植物園のロゴ"></a>
+            </div>
+            <div class="gnav-wrapper">
+                <div class="cta-container">
+                    <a href="../access/index.html" class="cta-child pc-only">
+                        <p class="align">アクセス</p>
+                    </a>
+                    <a href="../ticket/index.html" class="cta-child pc-only">
+                        <p class="align">入場料</p>
+                    </a>
+                </div>
+                <div class="gnav pc-only">
+                    <a href="../infomation/index.html" class="gnav-child"><p>お知らせ</p></a>
+                    <a href="../event/index.html" class="gnav-child"><p>イベント</p></a>
+                    <a href="../floormap/index.html" class="gnav-child"><p>フロアマップ</p></a>
+                    <a href="../hours/index.html" class="gnav-child"><p>営業時間</p></a>
+                </div>
+            </div>
+        </div>
+<!-- ヘッダー下地 -->
+        <div class="header-bg">
+            <div class="header-left">
+                <img src="../img/header_left.png" alt="ヘッダーの背景"> 
+            </div>
+            <div class="header-right">
+                <img src="../img/header_right.png" alt="ヘッダーの背景">
+            </div>
+        </div>
+<!-- 下層ページ用空白 -->
+        <div class="kasou-space"></div>
+<!-- ハンバーガーメニュー -->
+        <div class="sp-only">
+            <div class="hamb animation" id="hamb">
+                <span class="line animation"></span>
+                <span class="line animation"></span>
+                <span class="line animation"></span>
+            </div>
+            <div class="black-bg" id="black-bg">
+                <nav class="overlay">
+                    <ul>
+                        <li><a href="../access/index.html">アクセス</a></li>
+                        <li><a href="../ticket/index.html">入場料</a></li>
+                        <li><a href="../infomation/index.html">お知らせ</a></li>
+                        <li><a href="../event/index.html">イベント</a></li>
+                        <li><a href="../floormap/index.html">フロアマップ</a></li>
+                        <li><a href="../hours/index.html">営業時間</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+<!-- ハンバーガーメニュー　ここまで -->
+    </header>
+
+    <main class="container">
+        <section class="floormaps">
+            <div class="floor-title">
+                <a href="#">  
+                    <h3 class="floor-EN">Floor Map</h3>
+                    <h2 class="floor-JP">フロアマップ</h2>
+                </a>
+            </div>
+            
+           <div class="floormap1"> <img  src="../img/map_floormap.png" alt="フロアマップ" width="900" height="700"></div>
+            <div class="areas">
+                <div class="area-title">
+                    <div class="area-number"><img src="../img/floor-1-01.png" alt="#" width="56" height="56"></div>
+                    <h2>アジアの熱帯雨林</h2>
+                </div>
+                <div class="area-explain">
+                    <div class="area-img">
+                        <img src="../img/map1_asian_rainforest.png" alt="#" alt="アジアの熱帯雨林エリアの画像" width="365" height="240" >
+                    </div>
+                    <div class="floor-text">
+                        <p>高温多湿な東南アジアの熱帯雨林を再現した、緑あふれるエリア。
+                            巨大なガジュマルを中心に、頭上まで広がる大きな葉や色鮮やかな花々が、
+                            ジャングルのような空間をつくり出します。
+                        </p>
+                    </div>
+                </div>
+                <div class="area-title">
+                    <div class="area-number"><img src="../img/floor2-01.png" width="56" height="56"></div>
+                    <h2>アマゾンの熱帯雨林</h2>
+                </div>
+                <div class="area-explain">
+                    <div class="area-img">
+                        <img src="../img/map2_amazon_rainforest.png" alt="アマゾンの熱帯雨林エリアの画像" width="365" height="240" >
+                    </div>
+                    <div class="floor-text">
+                        <p>
+                            南米アマゾンの豊かな自然を再現した、生命力あふれるエリア。
+                            個性的な形の葉や鮮やかな熱帯の花々が生い茂り、
+                            水辺では巨大魚ピラルクが泳ぐ姿も観察できます。
+                        </p>
+                    </div>
+                </div>
+                <div class="area-title">
+                    <div class="area-number"><img src="../img/floor-3-01.png"  alt="#"width="56" height="56"></div>
+                    <h2>アマゾン・リバー</h2>
+                </div>
+                <div class="area-explain">
+                    <div class="area-img">
+                        <img src="../img/map3_amazon_river.png" alt="アマゾン・リバーエリアの画像" width="365" height="240" >
+                    </div>
+                    <div class="floor-text">
+                        <p>
+                            南米アマゾン川流域の水辺の環境を再現した、迫力あふれる水槽エリア。
+                            巨大魚ピラルクが悠々と泳ぐ姿を間近で観察でき、水辺に広がる熱帯植物とともに、
+                            豊かな水中の生態系を体感できます。
+
+                        </p>
+                    </div>
+                </div>   
+                
+                <div class="area-title">
+                    <div class="area-number"><img src="../img/floor-4-01.png" alt="#" width="56" height="56"></div>
+                    <h2>乾燥地の植物たち</h2>
+                </div>
+                <div class="area-explain">
+                    <div class="area-img">
+                        <img src="../img/map4_dryarea.png" alt="乾燥地帯エリアの画像" width="365" height="240" >
+                    </div>
+                    <div class="floor-text">
+                        <p>
+                            強い日差しと雨の少ない乾燥地帯を再現した、個性的な植物が集まるエリア。
+                            太い幹や肉厚な葉など、厳しい環境を生き抜くために進化した
+                            植物たちの不思議な姿を楽しめます。
+                        </p>
+                    </div>
+                </div>      
+
+                <div class="area-title">
+                    <div class="area-number"><img src="../img/floor-5-01.png" alt="#" width="56" height="56"></div>
+                    <h2>雲霧林の世界</h2>
+                </div>
+                <div class="area-explain">
+                    <div class="area-img">
+                        <img src="../img/map5_mistforest.png" alt="雲霧林エリアの画像" width="365" height="240" >
+                    </div>
+                    <div class="floor-text">
+                        <p>
+                            霧に包まれた熱帯の高地を再現した、幻想的なエリア。
+                            しっとりとした空気の中、木々に着生するランやシダ、岩や幹を覆うコケなど、
+                            湿潤な環境ならではの植物が広がります。
+                        </p>
+                    </div>
+                </div>      
+
+                <div class="area-title">
+                    <div class="area-number"><img src="../img/floor-6-01.png" alt="#" width="56" height="56"></div>
+                    <h2>ボタニカルアトリエ</h2>
+                </div>
+                <div class="area-explain">
+                    <div class="area-img">
+                        <img src="../img/map5_mistforest.png" alt="ボタニカルアトリエの画像" width="365" height="240" >
+                    </div>
+                    <div class="floor-text">
+                        <p>
+                        植物に触れながら、ものづくりや自然の不思議を楽しめる体験型エリア。
+                            観葉植物の植え付けや、葉っぱ・木の実を使ったクラフトなど、
+                            季節に合わせたワークショップを開催しています。
+                            子どもから大人まで、家族みんなで楽しみながら植物への理解を深められます。
+
+                        </p>
+                    </div>
+                </div>      
+            </div>
+        </section>
+    </main>
+
+    <footer>
+            <div class="footer_adress">
+                <div class="footer_content">
+                    <a href="../index.html"><img src="../img/setouchi_logo.png" alt="せとうち熱帯植物園のロゴ" width="248" height="87"></a>
+                </div>
+                <div class="footer_content">
+                        <p>〒734-0012<br>広島県広島市南区元宇品町88-8<br>TEL：082-000-0000</p>
+                </div>
+                <div class="footer_content">
+                    <p>©せとうち熱帯植物園</p>
+                </div>
+            </div>
+            <div class="footer_yokonarabi">
+                <div class="footer_tatenarabi">
+                    <a href="../infomation/index.html"><p>お知らせ</p></a><br>
+                    <a href="../event/index.html"><p>イベント</p></a><br>
+                    <a href="../friends/index.html"><p>熱帯のなかまたち</p></a>
+                </div>
+                <div class="footer_tatenarabi">
+                    <a href="../floormap/index.html"><p>フロアマップ</p></a><br>
+                    <a href="../faq/index.html"><p>よくあるご質問</p></a><br>
+                    <a href="../privacypolicy/index.html"><p>プライバシーポリシー</p></a>
+                </div>
+                <div class="footer_tatenarabi_haji">
+                    <a href="../ticket/index.html"><p>入場料</p></a><br>
+                    <a href="../access/index.html"><p>アクセス</p></a><br>
+                </div>
+            </div>
+    </footer>
+
+<!--jQuery本体-->
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// スリック
+   $(function(){
+    $('.event-visual').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+    });
+
+// スライダー
+    function sliderSetting() {
+        if (window.innerWidth <= 750) {
+            if (!$('.hightlight-visuals').hasClass('slick-initialized')) {
+                $('.hightlight-visuals').slick({
+                    dots: true,
+                    arrows: false,
+                    infinite: true,
+                    speed: 500,
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2800
+                });
+            }
+        } else {
+            if ($('.hightlight-visuals').hasClass('slick-initialized')) {
+                $('.hightlight-visuals').slick('unslick');
+            }
+
+        }
+    }
+    sliderSetting();
+    $(window).on('resize', function(){
+        sliderSetting();
+    });
+});
+
+$('.fv-slider').slick({
+    autoplay: true,
+    autoplaySpeed: 8000,
+    speed: 2500,
+    fade: true,
+    cssEase: 'linear',
+    arrows: false,
+    dots: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
+});            
+    
+// ハンバーガー
+    $('#hamb').click(function() {
+        $(this).toggleClass('active');
+        $('#black-bg').toggleClass('open');
+    });
+
+// 追従ヘッダー
+const fixedHeader = document.querySelector('.fixed-header');
+window.addEventListener('scroll', function(){
+    if(window.scrollY > 0){
+        fixedHeader.classList.add('change-color');
+    } else {
+        fixedHeader.classList.remove('change-color');
+    }
+});
+     
+</script>
+
+</body>
+
+</html>

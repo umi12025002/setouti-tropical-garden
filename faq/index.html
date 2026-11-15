@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>タイトル</title>
+<!-- adobeフォントのjava -->
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'mxd5dgf',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+<!-- slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+<!--ready関数-->
+<script>
+$(function(){
+
+});
+</script>
+
+</head>
+
+<body>
+        <header>
+<!-- ヘッダー中身 -->
+        <div class="fixed-header">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/setouchi_logo.png" alt="せとうち熱帯植物園のロゴ"></a>
+            </div>
+            <div class="gnav-wrapper">
+                <div class="cta-container">
+                    <a href="../access/index.html" class="cta-child pc-only">
+                        <p class="align">アクセス</p>
+                    </a>
+                    <a href="../ticket/index.html" class="cta-child pc-only">
+                        <p class="align">入場料</p>
+                    </a>
+                </div>
+                <div class="gnav pc-only">
+                    <a href="../infomation/index.html" class="gnav-child"><p>お知らせ</p></a>
+                    <a href="../event/index.html" class="gnav-child"><p>イベント</p></a>
+                    <a href="../floormap/index.html" class="gnav-child"><p>フロアマップ</p></a>
+                    <a href="../hours/index.html" class="gnav-child"><p>営業時間</p></a>
+                </div>
+            </div>
+        </div>
+<!-- ヘッダー下地 -->
+        <div class="header-bg">
+            <div class="header-left">
+                <img src="../img/header_left.png" alt="ヘッダーの背景"> 
+            </div>
+            <div class="header-right">
+                <img src="../img/header_right.png" alt="ヘッダーの背景">
+            </div>
+        </div>
+<!-- 下層ページ用空白 -->
+        <div class="kasou-space"></div>
+<!-- ハンバーガーメニュー -->
+        <div class="sp-only">
+            <div class="hamb animation" id="hamb">
+                <span class="line animation"></span>
+                <span class="line animation"></span>
+                <span class="line animation"></span>
+            </div>
+            <div class="black-bg" id="black-bg">
+                <nav class="overlay">
+                    <ul>
+                        <li><a href="../access/index.html">アクセス</a></li>
+                        <li><a href="../ticket/index.html">入場料</a></li>
+                        <li><a href="../infomation/index.html">お知らせ</a></li>
+                        <li><a href="../event/index.html">イベント</a></li>
+                        <li><a href="../floormap/index.html">フロアマップ</a></li>
+                        <li><a href="../hours/index.html">営業時間</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+<!-- ハンバーガーメニュー　ここまで -->
+    </header>
+
+     <main class="container">
+        <div class="kasou_flame">
+            <div class="info_title_sukashi">FAQ</div>
+            <div class="kasou_title_jpn">よくあるご質問</div>
+        </div>
+        <div class="accordion_area">
+<!--↑まだ閉じてない -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false">Q. 入園料金はいくらですか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. 入園料金は、大人（高校生以上）2,000円、小・中学生1,000円、未就学児は無料です。<br>チケットは入園受付にてご購入いただけます。</p>
+                        <a href="../ticket/index.html"><p>チケット詳細はこちら</p></a>
+                    </div>
+                </div>
+            </div>
+<!-- 閉じた -->
+            <div class="accordion_one">
+                    <button class="accordion_header" type="button" aria-expanded="false">Q. 駐車場はありますか？
+                        <span class="i_box"><i class="one_i"></i></span>
+                    </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. 無料駐車場を80台分ご用意しています。大型バスも対応していますので、お車でも安心してお越しいただけます。</p>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false"> Q. 公共交通機関でのアクセス方法を教えてください。
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. JR高徳線「広島駅」から路線バスで約20分、「熱帯植物園前」下車すぐです。</p>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false"> Q. 小さな子ども連れでも楽しめますか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. はい。大型温室でさまざまな熱帯植物を観察できるほか、親子で探検気分を楽しめるキッズ探検エリアもございます。</p>
+                        <a href="#0"><p>アクセス詳細はこちら</p></a>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false"> Q.授乳室やおむつ交換台はありますか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. はい、園内には授乳室とおむつ交換台をご用意しております。小さなお子さま連れのお客様も、安心してご利用いただけます。</p>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false">Q. ベビーカーや車いすで入園できますか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. はい。園内の通路はベビーカーや車いすで移動できるよう整備しています。<br>ご不安な点がございましたら、スタッフまでお気軽にお声がけください。</p>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false">Q.雨の日でも楽しめますか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. はい、お楽しみいただけます。大型温室内では、天候を気にせず熱帯植物をご覧いただけます。雨の日も、緑豊かな熱帯の世界をゆっくりとお楽しみください。</p>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false">Q. 園内を見て回るにはどのくらい時間がかかりますか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A.園内の見学時間は約90分が目安です。植物の観察や写真撮影を楽しみながら、ご自身のペースでお過ごしください。</p>
+                    </div>
+                </div>
+            </div>
+<!-- ↑閉じた -->
+            <div class="accordion_one">
+                <button class="accordion_header" type="button" aria-expanded="false">Q. 再入園は可能ですか？
+                    <span class="i_box"><i class="one_i"></i></span>
+                </button>
+                <div class="accordion_inner">
+                    <div class="box_one">
+                        <p class="txt_a_ac">A. 申し訳ございませんが、再入園はご遠慮いただいております。<br>お忘れ物やお買い物などがないよう、ご退園前にご確認ください。 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+            <div class="footer_adress">
+                <div class="footer_content">
+                    <a href="../index.html"><img src="../img/setouchi_logo.png" alt="せとうち熱帯植物園のロゴ" width="248" height="87"></a>
+                </div>
+                <div class="footer_content">
+                        <p>〒734-0012<br>広島県広島市南区元宇品町88-8<br>TEL：082-000-0000</p>
+                </div>
+                <div class="footer_content">
+                    <p>©せとうち熱帯植物園</p>
+                </div>
+            </div>
+            <div class="footer_yokonarabi">
+                <div class="footer_tatenarabi">
+                    <a href="../infomation/index.html"><p>お知らせ</p></a><br>
+                    <a href="../event/index.html"><p>イベント</p></a><br>
+                    <a href="../friends/index.html"><p>熱帯のなかまたち</p></a>
+                </div>
+                <div class="footer_tatenarabi">
+                    <a href="../floormap/index.html"><p>フロアマップ</p></a><br>
+                    <a href="../faq/index.html"><p>よくあるご質問</p></a><br>
+                    <a href="../privacypolicy/index.html"><p>プライバシーポリシー</p></a>
+                </div>
+                <div class="footer_tatenarabi_haji">
+                    <a href="../ticket/index.html"><p>入場料</p></a><br>
+                    <a href="../access/index.html"><p>アクセス</p></a><br>
+            </div>
+    </footer>
+
+<!--jQuery本体-->
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// スリック
+   $(function(){
+    $('.event-visual').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+    });
+
+// スライダー
+    function sliderSetting() {
+        if (window.innerWidth <= 750) {
+            if (!$('.hightlight-visuals').hasClass('slick-initialized')) {
+                $('.hightlight-visuals').slick({
+                    dots: true,
+                    arrows: false,
+                    infinite: true,
+                    speed: 500,
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2800
+                });
+            }
+        } else {
+            if ($('.hightlight-visuals').hasClass('slick-initialized')) {
+                $('.hightlight-visuals').slick('unslick');
+            }
+
+        }
+    }
+    sliderSetting();
+    $(window).on('resize', function(){
+        sliderSetting();
+    });
+});
+
+$('.fv-slider').slick({
+    autoplay: true,
+    autoplaySpeed: 8000,
+    speed: 2500,
+    fade: true,
+    cssEase: 'linear',
+    arrows: false,
+    dots: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
+});            
+    
+// ハンバーガー
+    $('#hamb').click(function() {
+        $(this).toggleClass('active');
+        $('#black-bg').toggleClass('open');
+    });
+
+// 追従ヘッダー
+const fixedHeader = document.querySelector('.fixed-header');
+window.addEventListener('scroll', function(){
+    if(window.scrollY > 0){
+        fixedHeader.classList.add('change-color');
+    } else {
+        fixedHeader.classList.remove('change-color');
+    }
+});
+
+
+$(function(){
+$.fx.off = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  $('.accordion_one .accordion_header').click(function () {
+    $(this).next('.accordion_inner').slideToggle();
+    $(this).attr('aria-expanded', $(this).attr('aria-expanded') === 'true' ? 'false' : 'true');
+  });
+});
+
+  (function(d) {
+    var config = {
+      kitId: 'mxd5dgf',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+</body>
+
+</html>
