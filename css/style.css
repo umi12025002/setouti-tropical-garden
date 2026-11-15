@@ -510,6 +510,10 @@ a.gnav-child:link,a.gnav-child:visited {
 
 /* フッターのCSS */
 footer{
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size:14px;
     background-color: #0f7d70;
     width: 100%;
     margin:0 auto;
